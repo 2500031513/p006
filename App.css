@@ -1,0 +1,61 @@
+.app{
+    height: 100%;
+    background: linear-gradient(to bottom, #a1cbe6, #fff);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app .login-container{
+    background: #fff;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    box-shadow: 0 10px 20px #ccc;
+
+    display: flex;
+    flex-direction: column;
+}
+.app .login-container h2{
+    text-align: center;
+}
+.app .login-container .input-group{
+    width: 100%;
+    padding-bottom: 20px;
+    position: relative;
+}
+.app .login-container .input-group img{
+    height: 16px;
+    position: absolute;
+    top: 15px;
+}
+.app .login-container .input-group .left-icon{
+    left: 5px;
+}
+.app .login-container .input-group .right-icon{
+    right: 5px;
+}
+.app .login-container .input-group input{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: #f2f2f2;
+    padding: 0 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.app .login-container button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: black;
+    color:white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.app .login-container .password{
+    text-align: right;
+    font-size: 12px;
+}
